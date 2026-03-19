@@ -72,12 +72,12 @@ a {
 }
 
 .text-gradient {
-    background: linear-gradient(135deg, #fff 0%, var(--c-pink-neon) 50%, var(--c-blue-glow) 100%);
+    background: linear-gradient(to right, #ffffff, var(--c-pink-neon), var(--c-blue-glow), var(--c-pink-neon), #ffffff);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    animation: shine 4s linear infinite;
+    animation: shine 6s linear infinite;
 }
 
 @keyframes shine {
